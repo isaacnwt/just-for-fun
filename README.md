@@ -4,7 +4,6 @@ A project for practicing when I get bored 🏃🏾‍♂️
 
 ## Consumed APIs
 https://www.boredapi.com/
-https://libretranslate.com/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.1.
 
