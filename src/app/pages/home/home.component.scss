@@ -1,0 +1,10 @@
+.card {
+  width: 300px;
+  margin: auto;
+  margin-top: 200px;
+
+  &__buttons {
+    display: flex;
+    justify-content: end;
+  }
+}
