@@ -24,4 +24,23 @@ export class HomeComponent {
     )
   }
 
+  public getIcon(): string {
+    switch (this.activity.type) {
+      case 'cooking':
+        return 'restaurant_menu';
+      case 'education':
+        return 'school';
+      case 'relaxation':
+        return 'self_improvement';
+      case 'music':
+        return 'headphones';
+      case 'busywork':
+        return 'work';
+      case 'social':
+        return 'groups';
+      default:
+        return 'celebration';
+    }
+  }
+
 }

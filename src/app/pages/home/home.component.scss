@@ -1,7 +1,19 @@
 .card {
-  width: 300px;
+  max-width: 400px;
   margin: auto;
   margin-top: 200px;
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    p {
+      font-size: large;
+      margin: 0px;
+      margin-left: 10px;
+    }
+  }
 
   &__buttons {
     display: flex;
