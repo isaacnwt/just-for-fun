@@ -1,3 +1,13 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+}
+
 .logo {
   height: 50px;
   width: 45px;
